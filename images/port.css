@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&family=Overlock+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(178, 176, 176);
+    font-family: 'Fira Sans' , sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+    font-size: 30px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px 0;
+}.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+} 
+.Main{
+    /* background-color: yellow; */
+    width: 100%;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(255, 0, 221); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.Devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+
+}
+
+ .hello{
+    font-size: 3em;
+ }
+ .Name{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: "Source Code Pro", monospace;
+ }
+ .about{
+    font-size: 2.2em;
+ }
+ .moreabout{
+    font-size: 2em;
+    font-family: "Source Code Pro", monospace;
+    margin-top: 23px;
+ }
+ .Devinfo{
+    font-size: 10px;
+ }
+
+.button{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+ .btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+ }
+
+ .btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+ }
+ .btn:hover{
+    
+    background-color: white;
+    color: dodgerblue;
+ }
+
+ .Devpic img{
+    height: 58vh;
+    /* border-radius: 174px; */
+}
+
+
+
+/* CONTACT FORM */
+
+
+.contactform{
+    padding: 0 33px;
+    font-family: 'Fira Sans' , sans-serif;
+    margin: 0 88px;
+}
+.contactform h1{
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+    /* padding: 12px 0; */
+
+}
+.contactform form div{
+    padding: 10px 0;
+    flex-direction: row;
+}.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;   
+}
+.contactform form{
+    margin: 0 40px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+
+}
+#form-check{
+    flex-direction: row;
+}
+#isclient.form-check-input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+/* Blog Items */
+
+.blogItems{
+    margin: 20px ;
+    font-family: 'Fira Sans' , sans-serif;
+
+} 
+.blogContainer{
+    margin: 88px;
+}
+
+h1{
+    margin: 88px;
+    font-family: 'Fira Sans' , sans-serif;
+
+}p{
+    font-family: "Source Code Pro", monospace;
+    margin: 88px;
+}
+/* Intro */
+
+.intro h2{
+    font-family: 'Fira Sans' , sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: "Source Code Pro", monospace;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 900;
+}
+.skill{
+    width: 266px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred{ 
+    width: 265px;
+    background-color: black;
+}
+
+.fifty{
+    width: 75px;
+    background-color: yellow;
+}
+
+.t5{
+    width: 25px;
+    background-color: pink;
+}
+.sidebarGo{
+    transform: translate(-413px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.croos{
+    margin-left: 180px;
+    margin-top: 10px;
+
+}
+@media ( max-width:1615px){
+
+}
+
+.button{
+    font-size: 10px;
+}
+.Devinfo{
+    font-size: 10px;
+}
+/* .Devpic{
+    display: none;
+} */
+
+.intro .blogContainer .contactform{
+    margin: 50px 8px;
+}
