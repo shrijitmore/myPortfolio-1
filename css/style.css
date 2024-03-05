@@ -290,7 +290,6 @@ section {
     position: absolute;
     bottom: 0;
     right: 40px;
-    pointer-events: none;
     max-width: 480px;
     max-height: 150vh;
 }
@@ -307,7 +306,7 @@ span {
 }
 
 .about-img img {
-    width: 40vw;
+    width: 25vw;
 }
 
 .heading {
